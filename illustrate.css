@@ -1,0 +1,86 @@
+body {
+    margin:0;
+    padding: 0;
+    max-height: 400px;
+}
+.container {
+   width: 100%;
+    background: pink;
+    border-radius: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.main_content {
+    padding: 15px 40px;
+    border: 5px solid purple; 
+    border-radius: 20px;
+}
+a {
+    text-decoration: none;
+    color: purple;
+}
+a:hover {
+    color: #ffffff;
+}
+li {
+    list-style: none;
+}
+.top_header {
+    display: flex;
+    justify-content:space-evenly;
+    padding: 0 0.5em;
+}
+.navigation {
+    display: flex;
+    margin-left: 20em;
+}
+.nav_items {
+    padding-left: 3em;
+}
+hr {
+    border:1px solid purple;
+}
+ .btn_link {
+    background-color: purple;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 25px;
+    border:none;
+    margin-top:3px;
+
+}
+.about_text {
+    display: flex;
+    justify-content:space-between
+}
+.about_text h1 {
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.about_text p {
+    font-size: 12px;
+    letter-spacing:1px;
+}
+.about_text_header {
+    margin-left:5em;
+    margin-top:5em;
+}
+.btn_top {
+    margin-top:2em;
+}
+.image_left >img {
+    margin-right: 5em;
+}
+.image_text h2 {
+    text-align: center;
+    font-size: 40px;
+    color: purple;
+}
+.image_wrapper {
+    display:flex;
+    justify-content:space-evenly;
+}
+.image_wrapper p {
+    text-align: center;
+}
