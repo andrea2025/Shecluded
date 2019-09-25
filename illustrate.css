@@ -3,22 +3,28 @@ body {
     padding: 0;
     max-height: 400px;
 }
+
 .container {
    /* width: 100%; */
     background: pink;
     border-radius: 20px; 
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 15px 40px;
+    padding: 30px 40px;
     border: 5px solid purple; 
     border-radius: 20px;
 }
 a {
     text-decoration: none;
-    color: purple;
+    color: black;
 }
 a:hover {
     color: #ffffff;
+    cursor: pointer;
 }
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
 li {
     list-style: none;
 }
@@ -28,7 +34,7 @@ li {
     padding: 0 20px;
 }
 .logo > img {
-    padding-right: 5em;
+    padding-right: 4em;
 }
 .navigation {
     display: flex;
@@ -45,7 +51,7 @@ hr {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     color: #ffffff;
     border-radius: 10px;
-    padding: 10px 25px;
+    padding: 15px 30px;
     border:none;
     margin-top:3px;
 }
@@ -55,11 +61,11 @@ hr {
 }
 .about_text h1 {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
     letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
 }
 .about_text p {
-    font-size: 12px;
     letter-spacing:1px;
 }
 .about_text_header {
@@ -69,13 +75,15 @@ hr {
 .btn_top {
     margin-top:2em;
 }
-.image_side >img {
-    margin-right: 5em;
+.image_side > img {
+    margin-right: 8em;
+    margin-top: 3em;
 }
 .image_text h2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     color: purple;
+    font-family: 'Raleway',sans-serif;
 }
 .image_wrapper {
     display:flex;
